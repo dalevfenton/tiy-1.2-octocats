@@ -24,6 +24,7 @@ img{
   width: 31%;
   margin: 0 1%;
   border-bottom: 1px solid #cacaca;
+  margin-bottom: 10px;
 }
 .octocat a img{
   border: 1px solid #cacaca;
@@ -88,9 +89,11 @@ img{
 
 @media screen and (max-width: 750px) {
   .octocat{
-    display:  inline-block;
+    display:  block;
     width: 100%;
-    margin: 0 1%;
-    border-bottom: 1px solid #C7C7C7;
+    max-width: 450px;
+    margin: 0 auto;
+    border: none;
+    margin-bottom: 20px;
   }
 }
