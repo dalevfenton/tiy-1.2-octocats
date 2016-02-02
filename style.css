@@ -85,3 +85,12 @@ img{
 .authors li a img{
   border: none;
 }
+
+@media screen and (max-width: 650px) {
+  .octocat{
+    display:  inline-block;
+    width: 100%;
+    margin: 0 1%;
+    border-bottom: 1px solid #C7C7C7;
+  }
+}
