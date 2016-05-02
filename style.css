@@ -27,17 +27,18 @@ img{
   margin-bottom: 10px;
 }
 
-.octocat a img{
+.octocat > a{
+	display: inline-block;
   border: 1px solid #cacaca;
-  width: 100%;
-  margin: 0 auto;
+ 	margin: 0 auto;
+	border-radius: 3px;
 }
-.octocat:after{
+.octocat >a:after{
     content:'';
     float: right;
     position: relative;
-    bottom: 35px;
     right: 5px;
+	  bottom: -5px;
     width: 0;
     height: 0;
     border-top: solid 5px #cacaca;
@@ -83,9 +84,6 @@ img{
 .authors li a{
   width: 20px;
   position: static;
-}
-.authors li a img{
-  border: none;
 }
 
 @media screen and (max-width: 750px) {
